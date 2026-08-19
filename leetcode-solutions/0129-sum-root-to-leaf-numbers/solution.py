@@ -10,8 +10,6 @@ class Solution:
 
             if not node:
                 return 0
-            
-            
             current_sum = current_sum * 10 + node.val
             
             if not node.left and not node.right:
